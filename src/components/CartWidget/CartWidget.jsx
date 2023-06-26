@@ -2,7 +2,7 @@ import './CartWidget.css'
 
 const CartWidget = () => {
 
-    const imgCarrito = "https://e7.pngegg.com/pngimages/833/426/png-clipart-shopping-cart-shopping-cart.png";
+    const imgCarrito = "https://thumbs.dreamstime.com/b/icono-de-las-compras-del-carro-la-compra-en-fondo-oscuro-116659167.jpg";
     return (
         <div>
             <img className='imgCarrito' src={imgCarrito} alt="Carrito" />

@@ -1,0 +1,20 @@
+.contenedorItem {
+    text-align: center;
+    border: 1px solid #e3e1e1;
+    margin: 3rem;
+}
+
+img {
+    width: 50vw;
+}
+
+.btnProducto {
+    background-color: #14ce8f ;
+    color: #000;
+    font-size: 1.2rem;
+    width: 8rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: auto;
+}

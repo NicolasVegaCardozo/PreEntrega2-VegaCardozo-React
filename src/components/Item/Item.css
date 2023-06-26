@@ -1,5 +1,5 @@
 .cardProducto {
-    background-color: #f3b7f0;
+    background-color: #d17dbf;
     color:black;
     border-radius: 10px;
     width: 15rem;
@@ -18,13 +18,35 @@
 
 }
 
-.btnProducto {
-    background-color: #373d20;
+.btnProducto{
+    text-decoration: none;
+    background-color: gray;
     color: white;
-    font-size: 1.2rem;
-    width: 8rem;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-    margin-bottom: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10px 10px;
+    padding: 5px;
 }
+.btnProducto:hover{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    background-color: gray;
+}
+
+.comprar{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 8px;
+    color: white;
+    background-color: black
+}
+
+.comprar:hover{
+    color: black;
+    background-color: white;
+}
+
